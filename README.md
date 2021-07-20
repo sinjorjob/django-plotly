@@ -20,7 +20,7 @@ python create_demo_data.py
 
 `http://127.0.0.1:8000/dashboard/`にアクセスすると以下のようなダッシュボードが表示される。
 
-![demo](https://github.com/sinjorjob/product_sales_site/blob/master/images/ec-shop-kessai_1.gif)
+![demo](https://github.com/sinjorjob/django-plotly/blob/master/images/django-plotly-001.gif)
 
-![demo](https://github.com/sinjorjob/product_sales_site/blob/master/images/ec-shop-kessai_1.gif)
+![demo](https://github.com/sinjorjob/django-plotly/blob/master/images/django-plotly-002.gif)
 
