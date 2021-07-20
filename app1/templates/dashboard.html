@@ -1,0 +1,24 @@
+{% extends '.\base.html' %}
+{% block content %}
+<h1 class="mt-3 ml-3">Django-plotlyダッシュボード</h1>
+<title>Django-plotlyダッシュボード</title>
+
+<div class="row">
+    <div class="col-12 col-xl-12">
+        <div class="row">
+
+            <div class="card card-body shadow border-0 col-12 col-xl-12">
+
+                {% autoescape off %}
+                {{plot_fig_pie}}
+                {% endautoescape %}
+                <hr>
+                {% autoescape off %}
+                {{plot_fig_bar}}
+                {% endautoescape %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
